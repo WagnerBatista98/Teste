@@ -1,0 +1,28 @@
+
+.cubo{
+    background: blue;
+    width: 500px;
+    height: 500px;
+}
+.cubo:hover{
+    background: black;
+    width: 300px;
+    height: 300px;
+}
+.cubo:hover{
+    /*<box-shadow: 10px 10px 5px;>*/
+    animation-name: animacao;
+    animation-duration: 4s;
+}
+@keyframes animacao{
+    from{
+       background: purple;
+    width: 300px;
+    height: 300px;  
+    }
+    to{
+       background: white;
+    width: 500px;
+    height: 500px;  
+    }
+}
